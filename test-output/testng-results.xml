@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="22462" started-at="2019-11-27T08:38:23Z" finished-at="2019-11-27T08:38:46Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="22462" started-at="2019-11-27T08:38:23Z" finished-at="2019-11-27T08:38:46Z">
+      <class name="test.TestOne">
+        <test-method status="PASS" signature="setupBrowser()[pri:0, instance:test.TestOne@343f4d3d]" name="setupBrowser" is-config="true" duration-ms="4603" started-at="2019-11-27T08:38:18Z" finished-at="2019-11-27T08:38:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method status="PASS" signature="config()[pri:0, instance:test.TestOne@343f4d3d]" name="config" is-config="true" duration-ms="40" started-at="2019-11-27T08:38:23Z" finished-at="2019-11-27T08:38:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config -->
+        <test-method status="PASS" signature="navigateToApplication(java.lang.reflect.Method)[pri:0, instance:test.TestOne@343f4d3d]" name="navigateToApplication" is-config="true" duration-ms="2630" started-at="2019-11-27T08:38:23Z" finished-at="2019-11-27T08:38:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.TestOne.bookTicket() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToApplication -->
+        <test-method status="PASS" signature="bookTicket()[pri:0, instance:test.TestOne@343f4d3d]" name="bookTicket" duration-ms="14012" started-at="2019-11-27T08:38:26Z" finished-at="2019-11-27T08:38:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookTicket -->
+        <test-method status="PASS" signature="navigateToApplication(java.lang.reflect.Method)[pri:0, instance:test.TestOne@343f4d3d]" name="navigateToApplication" is-config="true" duration-ms="780" started-at="2019-11-27T08:38:40Z" finished-at="2019-11-27T08:38:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.TestOne.validateCredentialsOfUser() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToApplication -->
+        <test-method status="PASS" signature="validateCredentialsOfUser()[pri:0, instance:test.TestOne@343f4d3d]" name="validateCredentialsOfUser" duration-ms="4970" started-at="2019-11-27T08:38:41Z" finished-at="2019-11-27T08:38:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCredentialsOfUser -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:test.TestOne@343f4d3d]" name="afterClass" is-config="true" duration-ms="1" started-at="2019-11-27T08:38:46Z" finished-at="2019-11-27T08:38:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="closeApplicationAndTriggerEmail()[pri:0, instance:test.TestOne@343f4d3d]" name="closeApplicationAndTriggerEmail" is-config="true" duration-ms="2800" started-at="2019-11-27T08:38:46Z" finished-at="2019-11-27T08:38:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplicationAndTriggerEmail -->
+      </class> <!-- test.TestOne -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
